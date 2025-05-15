@@ -51,6 +51,8 @@ GeoexcelFreshSalt15/ # Output .csv files and summary files
 3. **Check the output folders** for:
     - Individual `.csv` files matching each input file.
     - `fresh_pH_summary.csv` and `salt_pH_summary.csv` summarizing the extracted pH values.
+  
+4. **example of final visualization**
 
 ## Requirements
 
