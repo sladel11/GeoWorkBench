@@ -23,19 +23,18 @@ GeoFinal/ # Output folder for converted .csv files
 
 GeoFreshSalt15/ # Input .txt files with fresh/salt pH data
 GeoexcelFreshSalt15/ # Output .csv files and summary files
-├── fresh_pH_summary.csv
-└── salt_pH_summary.csv
+
 
 ## How to Use
 
 1. **Edit the folder paths** in the script to match your system:
 
     ```python
-    folder_path = r"C:\Users\laszews\Documents\GeoFreshSalt15"
-    output_csv_folder = r"C:\Users\laszews\Documents\GeoexcelFreshSalt15"
+    folder_path = r""
+    output_csv_folder = r""
     ```
 
-2. **Run the script** using a Python interpreter (Python 3.x recommended).
+2. **Run the script** using a Python interpreter
 
 3. **Check the output folders** for:
     - Individual `.csv` files matching each input file.
@@ -51,6 +50,3 @@ GeoexcelFreshSalt15/ # Output .csv files and summary files
 - The script assumes that pH values appear on lines starting with the keyword `pH` and that the pH value is the third element on the line.
 - File name prefixes (`fresh` or `salt`) are case-insensitive and used to categorize summary entries.
 
-## License
-
-This script is free to use and modify for academic or research purposes. Attribution is appreciated.
