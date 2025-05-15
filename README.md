@@ -19,9 +19,11 @@ This Python script processes `.txt` files containing geochemical data by convert
 ## Folder Structure
 
 GeochemFinal/ # Input .txt files for general conversion
+
 GeoFinal/ # Output folder for converted .csv files
 
 GeoFreshSalt15/ # Input .txt files with fresh/salt pH data
+
 GeoexcelFreshSalt15/ # Output .csv files and summary files
 
 
