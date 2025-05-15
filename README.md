@@ -54,6 +54,8 @@ GeoexcelFreshSalt15/ # Output .csv files and summary files
   
 4. **example of final visualization**
 
+![]FrashSaltpH.png
+
 ## Requirements
 
 - Python 3.x
