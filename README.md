@@ -2,10 +2,20 @@
 
 ## Overview
 
-This Python script processes `.txt` files containing geochemical data by converting their contents into `.csv` format and extracting pH values. It is designed to handle two types of datasets:
+This Python script processes `.txt` files containing geochemical field or lab data by converting their contents into `.csv` format and extracting pH values. It is especially useful for organizing datasets that distinguish between freshwater and saltwater environments — two key domains in understanding the biogeochemical impacts of increasing atmospheric CO₂ levels.
 
-1. **General text files** — Converts each line into rows in CSV format.
-2. **Fresh and Salt datasets** — Additionally extracts and summarizes pH values from each file whose name begins with `fresh` or `salt`.
+## Why This Matters: CO₂, Water Chemistry, and pH
+
+As atmospheric CO₂ concentrations rise due to anthropogenic emissions, more CO₂ dissolves into aquatic systems. This results in a well-documented process called **ocean acidification** (and freshwater acidification), where CO₂ reacts with water to form carbonic acid, which lowers pH.
+
+Monitoring **pH levels** in different water bodies — especially across freshwater and saltwater gradients — is a critical indicator of these changes. Slight pH shifts can have major impacts on:
+
+- Marine and freshwater ecosystems
+- Nutrient cycling
+- Carbon sequestration capacity
+- Shell-building organisms and microbial processes
+
+This script helps environmental scientists, students, and researchers efficiently manage and analyze pH data across multiple files and formats, contributing to larger efforts to quantify and understand the effects of CO₂ on natural waters.
 
 ## Features
 
